@@ -23,3 +23,10 @@ while (i <= n)
     Console.Write(i + " ");
     i++;
 }
+// второй вариант решения этой задачи с помощью цикла
+
+int n = 8;
+for (int i = -n; i <= n; i++)
+{
+    Console.Write(i + " ");
+}
